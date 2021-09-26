@@ -1,1 +1,1 @@
-<h1 align="center"> Mən Samir</h1>
+<h1 align="center">PragmaTech FrontEndProject</h1>
