@@ -1,0 +1,47 @@
+$font-body: monospace; 
+$body-color: teal;
+$body-fsize: 19px;
+$default-padding: 20px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $font-body;
+    font-size: $body-fsize;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background: $body-color;
+    text-align: center;
+    padding: $default-padding*2;
+}
+.container{
+    h1{
+        color: white;
+        padding: 20px;
+    }
+    label{
+        color: white;
+        font-size: $body-fsize;
+    }
+    input[type=submit]{
+        padding: $default-padding/2 $default-padding*2;
+        background-color: blue;
+        color: white;
+        border: none;
+    }
+    input[type=text]{
+        padding: $default-padding/1.5 $default-padding;
+    }
+    input[type=pass]{
+        padding: $default-padding/1.5 $default-padding;
+    }
+}
+input[type=submit]:hover{
+    background-color: gold;
+    transition: all 0.8s;
+}

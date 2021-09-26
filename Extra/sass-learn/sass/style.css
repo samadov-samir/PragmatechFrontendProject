@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  font-size: 19px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: teal;
+  text-align: center;
+  padding: 40px;
+}
+
+.container h1 {
+  color: white;
+  padding: 20px;
+}
+
+.container label {
+  color: white;
+  font-size: 19px;
+  padding: 5px;
+}
+
+.container input[type=submit] {
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.container input[type=text] {
+  padding: 13.33333px 20px;
+}
+
+.container input[type=pass] {
+  padding: 13.33333px 20px;
+}
+
+input[type=submit]:hover {
+  background-color: gold;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+/*# sourceMappingURL=style.css.map */
