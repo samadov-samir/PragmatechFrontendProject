@@ -92,12 +92,17 @@ ul li {
 .navbar-container .navbar-img h3 {
     text-align: center;
     color: white;
-    padding-top: 13px;
+    padding-top: 21px;
 }
 
 .navbar-container .navbar-content {
     text-align: center;
 }
+
+.navbar-container .navbar-content ul {
+    margin-top: 35px;
+}
+
 
 .navbar-container .navbar-content ul li {
     padding-bottom: 20px;
@@ -185,8 +190,9 @@ ul li {
 .navbar-head {
     height: 100px;
     display: none;
-    padding-left: 10px;
+    padding-left: 60px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .navbar-head ul li {
@@ -195,7 +201,7 @@ ul li {
 
 .navbar-head ul li {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     padding: 38px;
 }
 
@@ -209,16 +215,14 @@ ul li {
     transition: all 0.6s ease;
 }
 .social {
-    display: none;
     color: teal;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-right: 20px;
     font-size: 24px;
-    padding-left: 10px;
+    margin-left: 35px;
     text-align: center;
     margin-top: 250px;
 }
-
 .social a {
     padding-right: 20px;
 }
@@ -226,6 +230,26 @@ ul li {
     color: yellow;
 }
 .social a i:hover {
+    color: tomato;
+    transition: all 0.6s ease;
+}
+.navbar-social {
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 24px;
+    padding-left: 20px;
+    text-align: center;
+}
+.navbar-cnt{
+    padding-top: 5px;
+}
+.navbar-social a {
+    padding-right: 20px;
+}
+.navbar-social a i {
+    color: teal;
+}
+.navbar-social a i:hover {
     color: tomato;
     transition: all 0.6s ease;
 }
@@ -254,7 +278,7 @@ ul li {
     .navbar-head {
         display: block;
         height: 50px;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .navbar-img-content .navbar-cnt {
