@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button {
+  background: #fa9301;
+  border: none;
+  padding: 11px 29px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8%;
+  border-radius: 14px;
+  left: 75%;
+}
+
+button i {
+  color: white !important;
+  padding-left: 10px !important;
+}
+
+.container {
+  background: #c2a2d1;
+  height: 100vh;
+}
+
+.recept-body {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.recept-body .recept-img {
+  background: #ebd7f5;
+  width: 30%;
+}
+
+.recept-body .recept-text {
+  width: 70%;
+  padding: 40px 60px;
+  background: #fff;
+}
+
+.recept-body .recept-text h2 {
+  color: #311b92;
+}
+
+.recept-body .recept-text .recept-main {
+  color: #444444;
+  padding-bottom: 50px;
+}
+
+.recept-body .recept-text i {
+  color: #ffa726;
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-bottom: 20px;
+}
+
+.recept-body .recept-text .t-head {
+  padding-bottom: 25px;
+  color: #afbbc1;
+  padding-right: 30px;
+}
+
+.recept-body .recept-text .t-body {
+  color: #311b92;
+  font-weight: bold;
+}

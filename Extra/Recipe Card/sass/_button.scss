@@ -1,0 +1,15 @@
+button{
+    background: $button-bg-color;
+    border: none;
+    padding: 11px 29px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 8%;
+    border-radius: 14px;
+    left: 75%;
+    i{
+        color: white!important;
+        padding-left: 10px!important;
+    }
+}

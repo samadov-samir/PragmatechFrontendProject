@@ -1,0 +1,45 @@
+@import '_variable';
+@import '_reset';
+@import '_button';
+.container{
+    background: $body-color;
+    height: 100vh;
+}
+.recept-body{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding-top: 10%;
+    .recept-img{
+        background: $img-color;
+        width: 30%;
+    }
+    .recept-text{
+        width: 70%;
+        padding: 40px 60px;
+        background: $recept-text-color;
+            h2{
+                color: $text-color;
+            }
+            .recept-main{
+                color: $text-color-1;
+                padding-bottom: 50px;
+            }
+            i{
+                color: #ffa726;
+                padding-top: 10px;
+                padding-right: 8px;
+                padding-bottom: 20px;
+            }
+            .t-head{
+                padding-bottom: 25px;
+                color: $text-color-2;
+                padding-right: 30px;
+            }
+            .t-body{
+                color: $text-color;
+                font-weight: bold;
+            }
+    }
+}
+
