@@ -261,6 +261,11 @@ table {
   width: 60%;
 }
 
+.header .header-seachbar input[type=search] {
+  padding: 20px 30px;
+  width: 50%;
+}
+
 .header .header-right-item {
   width: 20%;
 }
@@ -427,4 +432,126 @@ table {
   padding-top: 17px;
   padding-left: 17px;
   padding-bottom: 17px;
+}
+
+footer {
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+  padding-top: 60px;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  color: #FCB947;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer-base {
+  width: 29%;
+  padding-left: 15px;
+}
+
+footer .footer-base img {
+  padding-bottom: 20px;
+}
+
+footer .footer-base p {
+  line-height: 20px;
+}
+
+footer .footer-base .question {
+  margin-top: 30px;
+}
+
+footer .footer-base .pay {
+  margin-top: 30px;
+  padding-left: 25px;
+}
+
+footer .footer-base .pay img {
+  margin-top: 10px;
+}
+
+footer .footer-base .question .tel {
+  display: inline-block;
+  color: #FCBC4D;
+  font-size: 20px;
+  margin-top: 9px;
+}
+
+footer .footer-useful {
+  width: 15%;
+  padding-left: 15px;
+}
+
+footer h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+footer .footer-customer {
+  width: 15%;
+  padding-left: 15px;
+}
+
+footer .footer-account {
+  width: 15%;
+  padding-left: 15px;
+}
+
+footer .footer-newsletter {
+  width: 20%;
+  padding-left: 15px;
+}
+
+footer .footer-newsletter input[type=email] {
+  padding: 5px 10px;
+}
+
+footer .footer-newsletter p {
+  padding-bottom: 15px;
+}
+
+footer .footer-newsletter button {
+  outline: none;
+  padding: 5px 10px;
+  color: white;
+  background: black;
+}
+
+footer .footer-newsletter button:hover {
+  background: #FCB941;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer-bootom {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.footer-bootom .left-item {
+  width: 83%;
+}
+
+.footer-bootom .right-item {
+  width: 17%;
+}
+
+.footer-bootom .right-item i {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.footer-bootom .right-item i:hover {
+  color: #FCB941;
 }

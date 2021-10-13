@@ -1,0 +1,100 @@
+footer{
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    padding-top: 60px;
+    a{
+        color: inherit;
+    }
+    a:hover{
+        color: #FCB947;
+        transition: 0.2s;
+    }
+    ul li{
+        margin-bottom: 10px;
+    }
+    .footer-base{
+        width: 29%;
+        padding-left: 15px;
+    }
+    .footer-base img{
+        padding-bottom: 20px;
+    }
+    .footer-base p{
+        line-height: 20px;
+    }
+    .footer-base .question{
+        margin-top: 30px;
+    }
+    .footer-base .pay{
+        margin-top: 30px;
+        padding-left: 25px;
+    }
+    .footer-base .pay img{
+        margin-top: 10px
+    }
+    .footer-base .question .tel{
+        display: inline-block;
+        color: #FCBC4D;
+        font-size: 20px;
+        margin-top: 9px;
+    }
+    .footer-useful{
+        width: 15%;
+        padding-left: 15px;
+
+    }
+    h3{
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .footer-customer{
+        width: 15%;
+        padding-left: 15px;
+
+    }
+    .footer-account{
+        width: 15%;
+        padding-left: 15px;
+
+    }
+    .footer-newsletter{
+        width: 20%;
+        padding-left: 15px;
+        input[type=email]{
+            padding: 5px 10px;
+        }
+        p{
+            padding-bottom: 15px;
+        }
+        button{
+            outline: none;
+            padding: 5px 10px;
+            color: white;
+            background: black;
+        }
+        button:hover{
+            background: #FCB941;
+            transition: 0.3s;
+        }
+    }
+}
+.footer-bootom{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    .left-item{
+        width: 83%;
+    }
+    .right-item{
+        width: 17%;
+        i{
+            padding-left: 5px;
+            padding-right: 10px;
+        }
+        i:hover{
+            color: #FCB941;
+        }
+    }
+}
+
+
