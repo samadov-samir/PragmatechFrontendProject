@@ -1,0 +1,40 @@
+.newsletter {
+    background: #333333;
+    .newsletter-container {
+        width: 70%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    .newsletter-text {
+        h3 {
+            color: #FCB941;
+            font-weight: 600;
+            font-size: 32px;
+            padding-bottom: 5px;
+        }
+
+        p {
+            color: #ccc;
+        }
+    }
+    .newsletter-email{
+        max-width: 700px;
+        padding-left: 15px;
+        input[type=email]{
+            border-color: #dadada;
+            padding: 15px;
+            width: 500px;
+        }
+        button{
+            margin-left: 5px;
+            padding: 15px;
+            outline: none;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+        button:hover{
+            background: #FCB941;
+            transition: 0.4s;
+        }
+    }
+}
